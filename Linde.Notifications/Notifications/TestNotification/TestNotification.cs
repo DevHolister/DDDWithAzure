@@ -1,0 +1,17 @@
+﻿using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Linde.Notifications.Coaching.Notifications.TestNotification
+{
+    public class TestNotification : INotification
+    {
+        public int NotificationId { get; set; }
+        public Guid Id { get; set; }
+        public string Subject { get; set; }
+    }
+}

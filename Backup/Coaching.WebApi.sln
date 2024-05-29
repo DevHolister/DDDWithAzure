@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3EADB6AD-FDAD-4BE3-B5B0-55EF3F94E220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F8FA2029-470C-49AA-B872-F2D517DF5BF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4DB36D2F-8212-48A0-B737-0EA67F52B119}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2D0D0976-9D37-4F78-845B-BBE98AEF4403}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linde.Core.Coaching", "src\Linde.Core.Coaching\Linde.Core.Coaching.csproj", "{808529C6-FE35-4FAB-BFDE-07C73C86833D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linde.Domain.Coaching", "src\Linde.Domain.Coaching\Linde.Domain.Coaching.csproj", "{900109E7-9122-4C2E-A672-8ECD5B387D10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linde.Persistence.Coaching", "src\Linde.Persistence.Coaching\Linde.Persistence.Coaching.csproj", "{0A50A7A6-368C-4E37-9140-55C6B1D301AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linde.Infrastructure.Coaching", "src\Linde.Infrastructure.Coaching\Linde.Infrastructure.Coaching.csproj", "{AAE7F741-1D60-4B84-BF0C-82CF8A7189D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linde.Api.Coaching", "src\Linde.Api.Coaching\Linde.Api.Coaching.csproj", "{E9542E33-BE75-447F-B14C-4C2F552D918C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linde.Notifications.Coaching", "Linde.Notifications\Linde.Notifications.Coaching.csproj", "{055F22D3-6795-4039-98AC-ADCBB12405DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{808529C6-FE35-4FAB-BFDE-07C73C86833D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808529C6-FE35-4FAB-BFDE-07C73C86833D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808529C6-FE35-4FAB-BFDE-07C73C86833D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808529C6-FE35-4FAB-BFDE-07C73C86833D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900109E7-9122-4C2E-A672-8ECD5B387D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900109E7-9122-4C2E-A672-8ECD5B387D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900109E7-9122-4C2E-A672-8ECD5B387D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900109E7-9122-4C2E-A672-8ECD5B387D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A50A7A6-368C-4E37-9140-55C6B1D301AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A50A7A6-368C-4E37-9140-55C6B1D301AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A50A7A6-368C-4E37-9140-55C6B1D301AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A50A7A6-368C-4E37-9140-55C6B1D301AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE7F741-1D60-4B84-BF0C-82CF8A7189D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE7F741-1D60-4B84-BF0C-82CF8A7189D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE7F741-1D60-4B84-BF0C-82CF8A7189D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE7F741-1D60-4B84-BF0C-82CF8A7189D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9542E33-BE75-447F-B14C-4C2F552D918C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9542E33-BE75-447F-B14C-4C2F552D918C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9542E33-BE75-447F-B14C-4C2F552D918C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9542E33-BE75-447F-B14C-4C2F552D918C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055F22D3-6795-4039-98AC-ADCBB12405DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055F22D3-6795-4039-98AC-ADCBB12405DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055F22D3-6795-4039-98AC-ADCBB12405DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055F22D3-6795-4039-98AC-ADCBB12405DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{808529C6-FE35-4FAB-BFDE-07C73C86833D} = {3EADB6AD-FDAD-4BE3-B5B0-55EF3F94E220}
+		{900109E7-9122-4C2E-A672-8ECD5B387D10} = {F8FA2029-470C-49AA-B872-F2D517DF5BF1}
+		{0A50A7A6-368C-4E37-9140-55C6B1D301AD} = {4DB36D2F-8212-48A0-B737-0EA67F52B119}
+		{AAE7F741-1D60-4B84-BF0C-82CF8A7189D7} = {4DB36D2F-8212-48A0-B737-0EA67F52B119}
+		{E9542E33-BE75-447F-B14C-4C2F552D918C} = {2D0D0976-9D37-4F78-845B-BBE98AEF4403}
+		{055F22D3-6795-4039-98AC-ADCBB12405DC} = {2D0D0976-9D37-4F78-845B-BBE98AEF4403}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A29423-2232-4C20-8ABF-CE8556BB1E68}
+	EndGlobalSection
+EndGlobal
